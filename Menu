@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴판</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .menu-item h2 {
+            margin: 0;
+            color: #333;
+        }
+        .menu-item span {
+            font-weight: bold;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>메뉴판</h1>
+        <div class="menu-item">
+            <h2>나쵸 피자</h2>
+            <span>4,000원</span>
+        </div>
+        <div class="menu-item">
+            <h2>도리도스 타코</h2>
+            <span>4,500원</span>
+        </div>
+        <div class="menu-item">
+            <h2>치킨너겟</h2>
+            <span>4,800원</span>
+        </div>
+        <div class="menu-item">
+            <h2>감자튀김</h2>
+            <span>3,800원</span>
+        </div>
+    </div>
+</body>
+</html>
